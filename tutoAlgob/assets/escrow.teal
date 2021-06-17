@@ -1,0 +1,32 @@
+#pragma version 2
+
+global GroupSize
+int 1
+==
+bnz optin
+global GroupSize
+int 3
+==
+bnz test
+
+err
+
+optin:
+txn Amount
+int 0
+==
+bnz ok
+int 0
+return
+
+test:
+gtxn 0 ApplicationID
+int 16779137
+==
+bnz ok
+int 0
+return
+
+ok: 
+int 1
+return

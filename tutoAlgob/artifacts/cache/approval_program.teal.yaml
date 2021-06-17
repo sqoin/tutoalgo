@@ -1,0 +1,74 @@
+filename: approval_program.teal
+timestamp: 1623963133
+compiled: AiACAAEmAgZjcmVhdGUKcHJpY2VTdGF0ZTEYIhJAACIxGSMSQAAbMRkiEkAAAQA2GgAoEkAAAiJDIik2GgEXZiNDI0M=
+compiledHash: 53EDCE75T75INDZ3P7LBWQSTOWR72I2QJI42H7CLRJMEJTE6JWHNN2GPMU
+srcHash: 3346041414
+base64ToBytes:
+  - 2
+  - 32
+  - 2
+  - 0
+  - 1
+  - 38
+  - 2
+  - 6
+  - 99
+  - 114
+  - 101
+  - 97
+  - 116
+  - 101
+  - 10
+  - 112
+  - 114
+  - 105
+  - 99
+  - 101
+  - 83
+  - 116
+  - 97
+  - 116
+  - 101
+  - 49
+  - 24
+  - 34
+  - 18
+  - 64
+  - 0
+  - 34
+  - 49
+  - 25
+  - 35
+  - 18
+  - 64
+  - 0
+  - 27
+  - 49
+  - 25
+  - 34
+  - 18
+  - 64
+  - 0
+  - 1
+  - 0
+  - 54
+  - 26
+  - 0
+  - 40
+  - 18
+  - 64
+  - 0
+  - 2
+  - 34
+  - 67
+  - 34
+  - 41
+  - 54
+  - 26
+  - 1
+  - 23
+  - 102
+  - 35
+  - 67
+  - 35
+  - 67

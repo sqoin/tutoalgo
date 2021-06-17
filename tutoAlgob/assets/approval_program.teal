@@ -1,0 +1,42 @@
+#pragma version 2
+
+txn ApplicationID
+int 0
+==
+bnz ok
+
+txn OnCompletion
+int OptIn
+==
+bnz ok
+
+txn OnCompletion
+int NoOp
+==
+bnz noop
+
+err
+
+noop:
+
+txna ApplicationArgs 0
+byte "create"
+==
+bnz create
+
+int 0 
+return
+
+create:
+int 0
+byte "priceState"
+txna ApplicationArgs 1
+btoi
+app_local_put
+
+int 1
+return
+
+ok:
+int 1
+return
